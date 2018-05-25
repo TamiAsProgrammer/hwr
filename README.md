@@ -38,7 +38,7 @@ cd hwr
 npm init -y
 ~~~
 
-~~~
+~~~sh
 echo "# hwr" >> README.md
 git init
 git add README.md
@@ -46,3 +46,13 @@ git commit -m "first commit"
 git remote add origin https://github.com/TamiAsProgrammer/hwr.git
 git push -u origin master
 ~~~
+
+~~~sh
+npm install --save-dev webpack webpack-dev-server react-hot-loader
+npm install --save-dev babel-core babel-loader
+npm install --save-dev babel-preset-es2015 babel-preset-react
+npm install --save react react-dom history react-router
+~~~
+
+webpack-dev-server
+./node_modules/.bin/webpack
